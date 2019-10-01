@@ -6,13 +6,12 @@ h1{
 	text-align: center;
 }
 
-a{
+header a{
 	display: inline;
-	background-color: white;
+	background-color: black;
 	border-style: solid;
 	border-width: 2px;
 	border-color: black;
-	border-radius: 5px;
 	padding: 5px;
 	transition: 200ms;
 }
