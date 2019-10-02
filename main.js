@@ -1,17 +1,17 @@
 var a = 1;
 
 function toContact(){
-	window.location.assign("https://quinm2.github.io/myFirstWebsite/contact.html");
+	window.location.href = "https://alcauda.github.io/gogro.github.io/contact.html";
 }
 
-function toABout(){
-	self.location = "https://quinm2.github.io/myFirstWebsite/about.html";
+function toAbout(){
+	window.location.href = "https://alcauda.github.io/gogro.github.io/about.html";
 }
 	
 function toIndex(){
-	self.location = "https://quinm2.github.io/myFirstWebsite/index.html";
+	window.location.href = "https://alcauda.github.io/gogro.github.io/index.html";
 }
 	
 function toHome(){
-	self.location = "https://quinm2.github.io/myFirstWebsite/home.html";
+	window.location.href = "https://alcauda.github.io/gogro.github.io/home.html";
 }
