@@ -1,4 +1,4 @@
-/* Three columns side by side */
+/* Three columns side by side 
 .column {
   float: left;
   width: 33.3%;
@@ -6,14 +6,74 @@
   padding: 0 8px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
+/* Display the columns below each other instead of side by side on small screens 
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
   }
+}*/
+html {
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: 'Handlee', cursive;
+  font-size: 13pt;
+  background-color: #efefef;
+  padding: 10px;
+  margin: 0;
+}
+#header {
+  background-image: url("header.jpg");
+  background-size: cover;
+}
+#header img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+#header p {
+  font-size: 25pt;
+  color: #08e2ac;
+  padding-top: 5px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  font-size: 15pt;
+  color: #20bcd5;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+}
+h1 span {
+  border: 4px dashed #20d5cc;
+  padding: 10px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -49,4 +109,35 @@
 
 .button:hover {
   background-color: #555;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #0edfab;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
 }
