@@ -6,24 +6,45 @@
 	</head>
 	
 	<body>
-		<header>
-			<h1>HEADER</h1>
-			<nav>
-				<a href="/index.html">HOME</a>
-				<a href="/contact.html">CONTACT</a>
-				<a href="/about.html">ABOUT</a>
-			</nav>
-		</header>
+			<div id="header" class="section">
+					<img alt="" class="img-circle" src="dealish.jpg">
+					<p>HEADER</p>
+				</div>
+			<div class="topnav">
+					<a href="/index.html">Home</a>
+					<a href="/contact.html">Contact</a>
+					<a href="/about.html">About</a>
+				  </div>
+		
 		<p>
 		This is a paragraph.
 		</p>
 		<p>
 			This is another paragraph
 		</p>
+		<div class="section">
+			<h1><span>Contact Us</span></h1>
+			
+			<svg class="face" height="100" width="100">
+				<circle cx="50" cy="50" r="50" fill="#FDD835"/>
+				<circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+				<circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+				<circle cx="30" cy="30" r="5" fill="#000000"/>
+				<circle cx="70" cy="30" r="5" fill="#000000"/>
+				<path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+			</svg>
+				 
+			<form>
+				<input name="name" placeholder="Name" type="text" required /><br/>
+				<input name="email" placeholder="Email" type="email" required /><br/>
+				<textarea name="message" placeholder="Message" required ></textarea>
+				<input type="submit" value="SEND" class="submit" />
+			</form>
+		</div>
 		<div class="section" id="contacts">
             <h1><span>Follow Us</span></h1>
             <div>
-                
+
                 <a href="#">
                     <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
                 </a>
@@ -31,6 +52,7 @@
                     <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
                 </a>
             </div>
-        </div>
+		</div>
+		
 	</body>
 </html>
