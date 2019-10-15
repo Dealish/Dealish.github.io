@@ -1,0 +1,84 @@
+Visual Guidelines for DEALISH
+
+==============================
+
+Background
+
+Colours from pictures in the food and contrast
+colours due to showing price differences will
+need to be against a white background to avoid
+over saturating the user experience with too
+much colour.
+
+background = white
+
+==============================
+
+Notation for Price Differences
+
+Showing price reductions were analyzed from H&M,
+Loblaws, Trivago, Walmart, and Apple. It seems more
+value is perceived from the customer when the value
+price is displayed in value. Red is often used to show
+a discount, which does not equate to better value.
+
+regular price = grey with slash
+
+best price = green to the left of regular price
+
+==============================
+
+/* Color Theme Swatches in Hex */
+.Person-shopping-at-the-grocery-shop-food-concept-1-hex { color: #181E40; }
+.Person-shopping-at-the-grocery-shop-food-concept-2-hex { color: #698C1C; }
+.Person-shopping-at-the-grocery-shop-food-concept-3-hex { color: #BFAB45; }
+.Person-shopping-at-the-grocery-shop-food-concept-4-hex { color: #D95A2B; }
+.Person-shopping-at-the-grocery-shop-food-concept-5-hex { color: #A62929; }
+
+/* Color Theme Swatches in RGBA */
+.Person-shopping-at-the-grocery-shop-food-concept-1-rgba { color: rgba(24, 30, 63, 1); }
+.Person-shopping-at-the-grocery-shop-food-concept-2-rgba { color: rgba(104, 140, 28, 1); }
+.Person-shopping-at-the-grocery-shop-food-concept-3-rgba { color: rgba(191, 170, 68, 1); }
+.Person-shopping-at-the-grocery-shop-food-concept-4-rgba { color: rgba(216, 89, 43, 1); }
+.Person-shopping-at-the-grocery-shop-food-concept-5-rgba { color: rgba(165, 41, 41, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Person-shopping-at-the-grocery-shop-food-concept-1-hsla { color: hsla(230, 44, 17, 1); }
+.Person-shopping-at-the-grocery-shop-food-concept-2-hsla { color: hsla(78, 66, 33, 1); }
+.Person-shopping-at-the-grocery-shop-food-concept-3-hsla { color: hsla(50, 48, 51, 1); }
+.Person-shopping-at-the-grocery-shop-food-concept-4-hsla { color: hsla(16, 69, 51, 1); }
+.Person-shopping-at-the-grocery-shop-food-concept-5-hsla { color: hsla(0, 60, 40, 1); }
+
+
+==============================
+
+FONT
+
+Due to the popularity of the Google Font "ROBOTO" in
+select countries, ROBOTO will also be used for DEALISH
+to activate a familiar experience for the user.
+
+font = ROBOTO
+
+==============================
+
+Hyperlinks
+
+Pictures and words will contain hyperlinks to redirect
+to products, websites, or recipes, among other things.
+
+When a text link is hovered IN THE HEADER OR FOOTER:
+will turn white from grey
+
+When a text link is clicked ANYWHERE:
+it will not change colour after being clicked
+
+When a picture is hovered: it will zoom in slightly.
+
+==============================
+
+Buttons:
+
+All buttons will be flat to adhere to modern design techniques.
+
+==============================
