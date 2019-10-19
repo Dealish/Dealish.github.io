@@ -29,11 +29,15 @@ best price = green to the left of regular price
 ==============================
 
 /* Color Theme Swatches in Hex */
-.Person-shopping-at-the-grocery-shop-food-concept-1-hex { color: #181E40; }
-.Person-shopping-at-the-grocery-shop-food-concept-2-hex { color: #698C1C; }
-.Person-shopping-at-the-grocery-shop-food-concept-3-hex { color: #BFAB45; }
-.Person-shopping-at-the-grocery-shop-food-concept-4-hex { color: #D95A2B; }
-.Person-shopping-at-the-grocery-shop-food-concept-5-hex { color: #A62929; }
+.Person-shopping-at-the-grocery-shop-food-concept-1-hex { color: #181E40; } (blue)
+.Person-shopping-at-the-grocery-shop-food-concept-2-hex { color: #698C1C; } (green)
+.Person-shopping-at-the-grocery-shop-food-concept-3-hex { color: #BFAB45; } (gold)
+.Person-shopping-at-the-grocery-shop-food-concept-4-hex { color: #D95A2B; } (orange)
+.Person-shopping-at-the-grocery-shop-food-concept-5-hex { color: #A62929; } (rouge)
+
+background colour: #efefef
+
+see: https://codepen.io/nickcil/pen/Eoqiv
 
 /* Color Theme Swatches in RGBA */
 .Person-shopping-at-the-grocery-shop-food-concept-1-rgba { color: rgba(24, 30, 63, 1); }
