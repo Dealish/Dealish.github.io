@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+<title>delish</title>
+</head>
+<body>
+<outline text=""><outline text="Pitch Deck"><outline text="Inspiration"><outline text="Legendary Startup Pitch Decks (https://piktochart.com/blog/startup-pitch-decks-what-you-can-learn/)"></outline>
+<outline text="Templates"><outline text="SlideBean (https://slidebean.com/pitch-deck-template)"><outline text="(Powered by AI)"></outline>
+</outline>
+<outline text="Venngage (https://venngage.com/blog/business-pitch-deck-templates/)"></outline>
+<outline text="Envato (https://envato.com/elements/lp/pitchdeck-templates/?adposition=1t1&amp;gclid=EAIaIQobChMI3qzon5Cu5QIVgZ-fCh3yGg-dEAAYASAAEgJ_zfD_BwE)"></outline>
+</outline>
+</outline>
+</outline>
+<outline text="Learning HTML, CSS, Javascript"><outline text="HTML"></outline>
+<outline text="CSS"><outline text="Dynamic Filtering and sorting to Webflow websites (https://webflow.com/blog/dynamic-filtering-and-sorting)"></outline>
+</outline>
+<outline text="Javascript"><outline text=""></outline>
+</outline>
+<outline text="Learning Platforms"><outline text="Webflow University (https://university.webflow.com)"></outline>
+<outline text="uxdesign.cc (uxdesign.cchttps://uxdesign.cc)"></outline>
+<outline text="w3schools (https://www.w3schools.com)"></outline>
+</outline>
+<outline text="Animations"><outline text="Web Animation Tools"><outline text="CSS Animations"></outline>
+<outline text="Javascript Animations"></outline>
+<outline text="SVG animations"></outline>
+<outline text="Canvas Animations"></outline>
+<outline text="WebGL"></outline>
+</outline>
+<outline text="Technologies Used to Create Web Animations (https://yalantis.com/blog/web-animation-technologies-and-tools/)"><outline text="Javascript Libraries"><outline text="GreenSock (GSAP) (https://greensock.com/gsap)"><outline text="Dopper (intro animation) (https://dopper.com/our-mission)"></outline>
+</outline>
+<outline text="VelocityJS (https://github.com/julianshapiro/velocity)"><outline text="EXPLODE (https://codepen.io/jjmartucci/pen/aHKxf)"></outline>
+</outline>
+<outline text="Anime.js (https://animejs.com/)"><outline text="Colour Changing (https://codepen.io/alexzaworski/pen/mEkvAG)"></outline>
+<outline text="Logo Animation 1 (https://codepen.io/juliangarnier/pen/oZNYXB)"></outline>
+<outline text="Logo Animation 2 (https://codepen.io/juliangarnier/pen/RRKEoB)"></outline>
+</outline>
+<outline text="Mo.js (https://blog.codepen.io/2017/09/22/fun-mo-js/https://github.com/mojs/mojs)"><outline text="Examples (https://blog.codepen.io/2017/09/22/fun-mo-js/)"></outline>
+</outline>
+<outline text="ScrollMagic (http://scrollmagic.io/)"><outline text="Examples (https://scrollmagic.io/examples/)"></outline>
+</outline>
+<outline text="Vivus (https://github.com/maxwellito/vivus)"></outline>
+</outline>
+<outline text="3D Animations"><outline text="Three.js (https://threejs.org)"><outline text="Example (https://emmitfenn.com)"></outline>
+</outline>
+</outline>
+<outline text="Rendering After Effects Animations for the Web"><outline text="Lottie (https://github.com/airbnb/lottie-web)"><outline text="Your Cart is Empty! (https://airbnb.design/wp-content/uploads/2017/01/screens_1.gif)"></outline>
+<outline text="Rating Products (https://airbnb.design/wp-content/uploads/2017/01/screens_2.gif)"></outline>
+</outline>
+<outline text="Bodymovin (https://aescripts.com/bodymovin/)"><outline text="Channel Surfing (https://codepen.io/airnan/pen/JmOqbN)"></outline>
+</outline>
+</outline>
+</outline>
+<outline text="Types of Web Animations (https://yalantis.com/blog/types-of-web-animations/)"><outline text="Loading (https://yalantis.com//uploads/ckeditor/pictures/2918/content_loader.gif)"></outline>
+<outline text="Welcome Animations"><outline text="Particles (https://particle-love.com)"></outline>
+<outline text="Background Video (https://www.canvasunited.com)"></outline>
+<outline text="3D Animations"></outline>
+</outline>
+<outline text="Scrolling"><outline text="One-page (https://codepen.io/suez/pen/gadLre)"></outline>
+<outline text="Scroll to Draw (https://codepen.io/chriscoyier/pen/YXgWam)"></outline>
+<outline text="Background Changes (https://codepen.io/giana/pen/PqVbRr)"></outline>
+</outline>
+<outline text="Sidebar Navigation (https://dribbble.com/shots/4272613-Chair-Page-Transition)"></outline>
+<outline text="Visual Feedback"><outline text="Warning Animation (https://yalantis.com//uploads/ckeditor/pictures/2921/content_button-with-success-error-states.gif)"></outline>
+<outline text="Hover Animation (https://yalantis.com//uploads/ckeditor/pictures/2923/content_button.gif)"></outline>
+</outline>
+<outline text="Story Telling (https://yalantis.com//uploads/ckeditor/pictures/2924/content_16_ruche_dribbble.gif)"></outline>
+</outline>
+</outline>
+</outline>
+<outline text="Assets"><outline text="Product Pictures"><outline text="Stock Images"></outline>
+<outline text="Place Holders"></outline>
+</outline>
+<outline text="Structure"><outline text="Header: About/Product Features, Pricing, Team, Contact, [demo]"><outline text="Page Type"><outline text="Mono-page"><outline text="Links in Header send user down the page to the section"><outline text="Add in demo page after"></outline>
+<outline text="w3School.com Template (https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_startup)"></outline>
+</outline>
+</outline>
+<outline text="Multi-page"><outline text="Links in Header send user to different pages of the website"><outline text="Wireframes (https://github.com/Dealish/Dealish.github.io/tree/master/Wireframes)"><outline text="Introduction Animation"><outline text="To create storyboard for intro animation / frame pans: Wonderunit.com (https://wonderunit.com/storyboarder/)"></outline>
+</outline>
+<outline text="Code-Free Website Builders:"><outline text="To collaborate on wireframes: Adobe XD (https://www.adobe.com/ca/products/xd.html) (free)"></outline>
+</outline>
+<outline text="“Bread crumb” Navigation (https://webflow.com/blog/how-to-build-breadcrumb-navigation-for-webflow-ecommerce)"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="Product Description (https://docs.google.com/document/d/1BLlwxIlVTEQk3llnm-nV-S0h8MA6tEKuRjdpzqFxYUk/edit?usp=sharing)"><outline text="Competitors / Similar Market"><outline text="Spud.ca (https://www.spud.ca/)"></outline>
+<outline text="GasBuddy (https://www.gasbuddy.com/)"></outline>
+<outline text="Loblaws Grocer (https://www.loblaws.ca/Food/Fruits-%26-Vegetables/c/LSL001001000000?navid=fruits-vegetables)"></outline>
+<outline text="Trivago (https://www.trivago.ca/?aDateRange%5Barr%5D=2020-02-11&amp;aDateRange%5Bdep%5D=2020-02-13&amp;aPriceRange%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;iRoomType=7&amp;aRooms%5B0%5D%5Badults%5D=2&amp;cpt2=24999/200&amp;iViewType=0&amp;bIsSeoPage=0&amp;sortingId=1&amp;slideoutsPageItemId=&amp;iGeoDistanceLimit=20000&amp;address=&amp;addressGeoCode=&amp;offset=0&amp;ra=)"></outline>
+<outline text="Walmart Grocer (https://www.walmart.ca/en/grocery/fruits-vegetables/N-3799)"></outline>
+<outline text="Flyers (https://www.save.ca/flyers)"></outline>
+<outline text="Flipp (https://app.flipp.com/)"></outline>
+<outline text="Market Track / Numerator (https://www.numerator.com/)"></outline>
+<outline text="Dexio.io (https://dexi.io/)"></outline>
+</outline>
+</outline>
+<outline text="Design"><outline text="Copywriters vs UX writers (aka US!) (https://uxdesign.cc/how-to-build-a-better-product-with-ux-writing-926d78209ce8)"><outline text="Icons"><outline text="Shopping Cart vs. Bag / Basket (https://uxdesign.cc/shopping-cart-bag-or-basket-fd7360c9413a)"></outline>
+</outline>
+<outline text="Branding"><outline text="Font "></outline>
+<outline text="Logo, mascot?"></outline>
+<outline text="Colours (https://az.design/blog/graphic-design-tips-2-colour-fonts-text/)"><outline text="Suggestions"><outline text="Food on sale always"><outline text="Reds and yellows"></outline>
+</outline>
+<outline text="Natural and Fresh"><outline text="Green = money, green = fresh"></outline>
+</outline>
+</outline>
+<outline text="How to choose a brand colour palette (https://fabrikbrands.com/brand-color-palette/)"><outline text="Blog posts discussing each colour in depth (https://az.design/brand-blog/)"></outline>
+<outline text="Balancing cultural understanding of colours (https://www.purelybranded.com/insights/the-color-of-marketing/)"></outline>
+<outline text="Description of colour wheel (http://www.color-wheel-pro.com/pics/gsinfographic1(color)large.jpg)"></outline>
+<outline text="Colours vs Types of Consumers (https://images.websitebuilderexpert.com/wp-content/uploads/2016/03/consumer-pychology-color-kissmetrics.png?_ga=2.44748068.1263338234.1570592230-1999190275.1570592230)"></outline>
+</outline>
+<outline text="How to design colours for web app"><outline text="Examples of website colour schemes (https://visme.co/blog/website-color-schemes/)"></outline>
+</outline>
+</outline>
+</outline>
+<outline text="Prices"><outline text="Ways to display price"><outline text="Examples"><outline text="Displaying Discounts"><outline text="Value Centric"><outline text="Price over unit sales - Luxury (high margin)"><outline text=""><outline text="Apple (https://www.apple.com/ca/shop/refurbished)"><outline text=""><outline text="Black font"></outline>
+<outline text="New price large and on top"></outline>
+<outline text="Old price strikethrough"></outline>
+<outline text="Savings in dollar value"></outline>
+</outline>
+</outline>
+</outline>
+<outline text="Trivago (https://www.trivago.ca/?aDateRange%5Barr%5D=2020-02-11&amp;aDateRange%5Bdep%5D=2020-02-13&amp;aPriceRange%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;iRoomType=7&amp;aRooms%5B0%5D%5Badults%5D=2&amp;cpt2=24999%2F200&amp;iViewType=0&amp;bIsSeoPage=0&amp;sortingId=1&amp;slideoutsPageItemId=&amp;iGeoDistanceLimit=20000&amp;address=&amp;addressGeoCode=&amp;offset=0&amp;ra=)"><outline text=""><outline text="RED = High price with line"></outline>
+<outline text="small RED percentage off"></outline>
+<outline text="High price above low price"></outline>
+<outline text="GREEN = Low price"></outline>
+<outline text="RED and GREEN same font size"></outline>
+</outline>
+</outline>
+<outline text="Nespresso (https://www.nespresso.com/ca/en/national-coffee-month-2019)"><outline text=""><outline text="Black font"></outline>
+<outline text="New price large and first"></outline>
+<outline text="Old price strikethrough"></outline>
+<outline text="Green “OFFER” showing value"></outline>
+<outline text="Red “FREE SHIPPING” time sensitive promotion in header (separate from product)"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="Brand Dilution - Clearance: margin maintained by unit sales"><outline text="Unit sales over price - fast retail; (high contrast emphasis on discount)"><outline text="H&amp;M (https://www2.hm.com/en_ca/sale/home/view-all.html)"><outline text=""><outline text="RED = Low price"></outline>
+<outline text="BLACK = High price with line"></outline>
+<outline text="Low price left to right price"></outline>
+<outline text="BLACK also = reg price on reg $ pages"></outline>
+</outline>
+</outline>
+<outline text="Loblaws (https://www.loblaws.ca/deals/all/1570590008761/page/~item/a/~sort/recommended/~selected/true/~filters/deals-for-pickup-time:true)"><outline text=""><outline text=""><outline text=""><outline text="RED = Low price"></outline>
+<outline text="GREY = High price with line"></outline>
+<outline text="Low price above high price price"></outline>
+<outline text="BLACK = no discount"></outline>
+<outline text="Purple stamp if in flyer"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="Walmart (https://www.walmart.ca/en/n-32?icid=home%20page_HP_MWTS_Tile_Clearance_WM)"><outline text=""><outline text=""><outline text=""><outline text="BLUE = high and low price (brand colour"></outline>
+<outline text="Low price above high price"></outline>
+<outline text="Categorize discount: RED = “Rollback”, YELLOW = Clearance"></outline>
+<outline text="High price has line through with smaller font than low price "></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="GUESS? INC. (https://www.guess.ca/en/catalog/browse/sale/men/view-all/)"><outline text=""><outline text="Fonts are same size"><outline text="Original price: Grey strikethrough"></outline>
+<outline text="Sale price red after original price"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="Types of Promotions (https://www.vendhq.com/blog/sales-promotion/)"><outline text="Percent Discounts"><outline text="As for how to implement this offer, Mike says that storewide percentage discounts typically work best. “5% storewide, with few exceptions, will garner more attention and generate more sales than even a 60% off clearance, the next-best option.” "></outline>
+</outline>
+<outline text="“XX Dollars Off”"><outline text="Depends on the amount of dollars off. For luxury brands that often have more margin to discount, they will perform better than discount brands."></outline>
+</outline>
+<outline text="Multi-Buys"><outline text="BOGO"><outline text="Used to move the most amount of inventory units."><outline text="BOGO-free performs better than BOGO-% off."><outline text="Useful to mask amount of discount. "><outline text="For example: "><outline text="Advantage of advertising a higher % promotion while preserving a lower actual discount %"><outline text="More margin preserved. Most customers will not purchase two of the exact same items."><outline text="Advantage of advertising a higher % promotion while preserving a lower actual discount %"><outline text="Example 1) Two items are purchased. Both items are identical ..."><outline text="BOGO-50% Off"><outline text="BOGO-50% off is really a combined savings of 25% off both items"><outline text="Advantages:"><outline text="Customer views higher discount, even though more margin is preserved."></outline>
+</outline>
+<outline text="Disadvantages:"><outline text="Not a lot of actual value with low priced units -- this effects online sales."></outline>
+</outline>
+</outline>
+</outline>
+<outline text="BOGO-FREE"><outline text="BOGO-FREE is really a combined savings of 50% off both items"><outline text="Advantages:"><outline text="Market with “FREE”"><outline text="More value -- more units per transaction"></outline>
+</outline>
+</outline>
+<outline text="Disadvantages:"><outline text="Less margin than BOGO-50%"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="Example 2) Two items are purchased. One is more expensive than the other ..."><outline text="BOGO-50% off or BOGO-FREE is really a combined savings of UP TO 25%-50% off both items"><outline text="Advantages:"><outline text="Customer views higher discount, even though more margin is preserved."></outline>
+</outline>
+<outline text="Disadvantages:"><outline text="Not a lot of actual value with low priced units -- this effects online sales."></outline>
+</outline>
+</outline>
+</outline>
+<outline text="Example 3) Gift with Purchase, ie. tote bag, water bottle, etc."><outline text="Up-sale to customers by adding value to their transaction with a gift with purchase"><outline text="Advantages:"><outline text="Could be easy marketing material such as tote bag, water bottle, etc. This can purchased at a low cost."></outline>
+<outline text="Can set the lowered margin to a standard rate with the cost of the gift."></outline>
+</outline>
+<outline text="Disadvantages:"><outline text="If gift is not worth it to customer, more units will not be up-sold."></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="Multi-Save and Conditional Promotions"><outline text="Multi-Save Promotions"><outline text="Buy and save off the entire sale."></outline>
+<outline text="Spend and save off the entire sale."></outline>
+<outline text="Buy and save off specific items."></outline>
+<outline text="Spend and save off specific items."></outline>
+<outline text="Buy and pay a fixed price."></outline>
+</outline>
+<outline text="Conditional Promotions"><outline text="Buy and get one or more items for free or on discount."></outline>
+<outline text="Spend and get one or more items for free or on discount."></outline>
+<outline text="Buy and earn loyalty."></outline>
+<outline text="Spend and earn loyalty."></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text="Summary: Specific item discounts"><outline text="Brand dilution - Clearance"><outline text="Aka “Expiring Food / Sale” rack in grocery store"><outline text="Non-sustainable for purchasing regular price product"><outline text="Does not preserve customer attention on regular price items."><outline text="Red or Yellow Font"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+<outline text=""><outline text="Value Centric"><outline text="Green font"><outline text="Maintains more margin by “manipulating” the value of items because of comparisons"></outline>
+</outline>
+<outline text="Loyalty / Point Programs"></outline>
+<outline text="Free shipping"></outline>
+<outline text="Try Before you Buy"><outline text="Trial time-frame"><outline text="e.g. Software Trials, “Adobe CC”"></outline>
+</outline>
+<outline text="Long Return period"><outline text="e.g. Mattress trials, “Endy”, “Casper”"></outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</outline>
+</body>
+</opml>
