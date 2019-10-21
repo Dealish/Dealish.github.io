@@ -15,3 +15,6 @@ function toIndex(){
 function toHome(){
 	window.location.href = "https://dealish.github.io/home.html";
 }
+
+<script src="jquery.min.js"></script>
+<script src="footer-reveal.js"></script>
