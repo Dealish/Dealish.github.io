@@ -58,11 +58,11 @@ see: https://codepen.io/nickcil/pen/Eoqiv
 
 FONT
 
-Due to the popularity of the Google Font "ROBOTO" in
-select countries, ROBOTO will also be used for DEALISH
+Due to the popularity of the Google Font "Raleway" in
+select countries, Raleway will also be used for DEALISH
 to activate a familiar experience for the user.
 
-font = ROBOTO
+font = Raleway
 
 ==============================
 

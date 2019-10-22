@@ -1,20 +1,21 @@
-var a = 1;
-
-function toContact(){
-	window.location.href = "https://dealish.github.io/contact.html";
+//E-mail Validation
+//Head:
+<script type="text/javascript">
+function validateEmail(theForm) {
+if (/^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/.test(theForm.email-id.value)){
+return(true);
 }
-
-function toAbout(){
-	window.location.href = "https://dealish.github.io/about.html";
+alert("Invalid e-mail address! Please enter again carefully!.");
+return(false);
 }
+</script>
+//Body:
+<form onSubmit="return validateEmail(this);" action="">
+E-mail Address:
+<input type="text" name="emailid" />
+<input type="submit" value="Submit" />
+<input type="reset" value="Reset" />
+</form>
 
-function toIndex(){
-	window.location.href = "https://dealish.github.io/index.html";
-}
-
-function toHome(){
-	window.location.href = "https://dealish.github.io/home.html";
-}
-
-<script src="jquery.min.js"></script>
-<script src="footer-reveal.js"></script>
+//Bookmark Us!
+<a href="javascript:window.external.AddFavorite('http://www.yoursite.com', 'Your Site Name')">Add to Favorites</a>
