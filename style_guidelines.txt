@@ -37,6 +37,10 @@ best price = green to the left of regular price
 
 background colour: #efefef
 
+Dealish Green: #38A011
+
+
+
 see: https://codepen.io/nickcil/pen/Eoqiv
 
 /* Color Theme Swatches in RGBA */
