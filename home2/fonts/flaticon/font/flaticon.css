@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 20/03/2019 02:18
+  	Creation date: 05/11/2019 03:29
   	*/
 
 @font-face {
@@ -30,10 +30,21 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-ideas:before { content: "\f100"; }
-.flaticon-flasks:before { content: "\f101"; }
-.flaticon-analysis:before { content: "\f102"; }
-.flaticon-ux-design:before { content: "\f103"; }
-.flaticon-web-design:before { content: "\f104"; }
-.flaticon-idea:before { content: "\f105"; }
-.flaticon-innovation:before { content: "\f106"; }
+.flaticon-destination-1:before { content: "\f100"; }
+.flaticon-delivery-truck-1:before { content: "\f101"; }
+.flaticon-price-1:before { content: "\f102"; }
+.flaticon-brain:before { content: "\f103"; }
+.flaticon-recipes:before { content: "\f104"; }
+.flaticon-diet:before { content: "\f105"; }
+.flaticon-price:before { content: "\f106"; }
+.flaticon-delivery-truck:before { content: "\f107"; }
+.flaticon-destination:before { content: "\f108"; }
+.flaticon-diet-1:before { content: "\f109"; }
+.flaticon-recipes-1:before { content: "\f10a"; }
+.flaticon-brain-1:before { content: "\f10b"; }
+.flaticon-destination-2:before { content: "\f10c"; }
+.flaticon-delivery-truck-2:before { content: "\f10d"; }
+.flaticon-price-2:before { content: "\f10e"; }
+.flaticon-diet-2:before { content: "\f10f"; }
+.flaticon-recipes-2:before { content: "\f110"; }
+.flaticon-brain-2:before { content: "\f111"; }
