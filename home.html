@@ -1,316 +1,742 @@
 <!DOCTYPE html>
-<html>
-<title>Dealish</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <title>Dealish - Savings on Groceries</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- External CSS Style Sheet -->
-<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
 
-<!-- Font-Awesome VECTOR ICON LIBRARY -->
+    <link rel="stylesheet" href="home2/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="home2/css/animate.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home2/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="home2/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="home2/css/magnific-popup.css">
 
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-body, html {
-  height: 100%;
-  line-height: 1.8;
-}
+    <link rel="stylesheet" href="home2/css/aos.css">
 
-/* Full height image header */
-.bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  background-image: url("https://i.pinimg.com/originals/2e/86/f2/2e86f218674fad47646e142d6f7869be.jpg");
-  min-height: 50%;
-}
+    <link rel="stylesheet" href="home2/css/ionicons.min.css">
 
-.w3-bar .w3-button {
-  padding: 16px;
-}
-</style>
-<body>
+    <link rel="stylesheet" href="home2/css/flaticon.css">
+    <link rel="stylesheet" href="home2/css/icomoon.css">
+    <link rel="stylesheet" href="home2/css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Logos/low_res_logo/horizontal/menu_logo.png?raw=true" align="middle"></a>
-    <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-spoon"></i></i> DEMO</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
-      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><img src = "https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Logos/low_res_logo/horizontal/menu_logo.png?raw=true"></a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
 
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-</div>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#features-section" class="nav-link"><span>Features</span></a></li>
+	          <li class="nav-item"><a href="#pricing-section" class="nav-link"><span>Pricing</span></a></li>
+	          <li class="nav-item"><a href="#testimonials-section" class="nav-link"><span>Testimonials</span></a></li>
+	          <li class="nav-item"><a href="#recipes-section" class="nav-link"><span>Recipes</span></a></li>
+	          <li class="nav-item"><a href="#social-section" class="nav-link"><span>Social</span></a></li>
+	          <li class="nav-item"><a href="#team-section" class="nav-link"><span>Team</span></a></li>
+            <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+            <li class="nav-item"><a href="https://dealish.github.io/comingsoon.html" target="_blank" class="btn btn-primary px-1 py-1 mt-1"><span>Try</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
 
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-right w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">DEMO</a>
-  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-</nav>
 
-<!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container" id="home">
-  <div class="w3-display-left w3-text-dark-gray" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small">Find the best prices for food near you</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Easy recipe shopping</span><br>
-    <span class="w3-large">Smart money meal planning</span>
-    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Start Saving on Groceries</a></p>
-  </div>
-</header>
 
-<a style="padding:10px;display:block;" href="https://dealish.github.io/vegefoods/about.html" target="_blank"></a>
+	  <section id="home-section" class="hero">
+	  	<h3 class="vr">Cooking Up Savings</h3>
+		  <div class="home-slider js-fullheight owl-carousel">
+	      <div class="slider-item js-fullheight">
+	      	<div class="overlay"></div>
+	        <div class="container-fluid p-0">
+	          <div class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third order-md-last img js-fullheight" style="background-image:url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Stock%20Pics/landing%20page/Mom-Cooking-Kids.jpg?raw=true);">
+	          		<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Welcome to the Dealish</span>
+			            <h1 class="mb-4 mt-3">Small Prices Means Big <span>Savings</span></h1>
+			            <p>Dealish finds the lowest price for fresh ingredients based on grocery stores nearest you.</p>
 
-<!-- Floating Demo Button -->
-<a href="https://dealish.github.io/vegefoods/about.html" class="float">
-<i class="fa my-float">Shop</i>
-</a>
+			            <p><a href="https://dealish.github.io/demo/index.html" target="_blank" class="btn btn-primary px-5 py-3 mt-3">Try It!</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
 
-<!-- About Section -->
-<div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">ABOUT <img src="https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Logos/low_res_logo/vertical/dealish_logo_horiz_transparent.png?raw=true" align="top"></h3>
-  <p class="w3-center w3-large">Key features</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
-			<i class="fa fa-money fa-5x" aria-hidden="true"></i>
-      <p class="w3-large">Best Price</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
-      <p class="w3-large">Curated Shopping</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-list-ol fa-5x" aria-hidden="true"></i>
-      <p class="w3-large">Meal Planning</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-truck fa-flip-horizontal fa-5x" aria-hidden="true"></i>
-      <p class="w3-large">Delivery</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-  </div>
-</div>
 
-<!-- DEMO -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="demo">
-  <div class="w3-row-padding">
-    <div class="w3-col m6">
-      <h3></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
-      <p><a href="https://dealish.github.io/vegefoods/index.html" class="w3-button w3-black"><i class="fa fa-spoon"> </i> Try Shopping for Dealish-ous Deals</a></p>
-    </div>
-    <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/news/markets/consumers-prefer-and-prioritize-cooking-at-home-peapod-finds/8936927-1-eng-GB/Consumers-prefer-and-prioritize-cooking-at-home-Peapod-finds_wrbm_large.jpg" alt="Cooking" width="700" height="394">
-    </div>
-  </div>
-</div>
+    </section>
 
-<!-- Team Section -->
-<!-- Make this a horizontal rolling carousel to make everyone equal -->
-<div class="w3-container" style="padding:128px 16px" id="team">
-  <h3 class="w3-center">THE TEAM</h3>
-  <p class="w3-center w3-large">The ones who runs this company</p>
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6c79fc2c-0d97-4d15-a21c-c56db9cb6eee/dks9q6-62f797e4-2378-4c0e-919c-93a00cb3ac7f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZjNzlmYzJjLTBkOTctNGQxNS1hMjFjLWM1NmRiOWNiNmVlZVwvZGtzOXE2LTYyZjc5N2U0LTIzNzgtNGMwZS05MTljLTkzYTAwY2IzYWM3Zi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Hz0weMnGqfACISvuiO37Eo--al9OaFo6Kxg43UeM9G4" alt="John" style="width:100%">
-        <div class="w3-container">
-          <h3>Joseph Abonasara</h3>
-          <p class="w3-opacity">Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt ftco-services bg-light" id="features-section">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-md-4 ftco-animate py-5 nav-link-wrap">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link px-4 " id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><span class="mr-2 flaticon-price"></span> Lowest Prices Guaranteed</a>
+
+              <a class="nav-link px-4" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><span class="mr-2 flaticon-delivery-truck"></span> Free Shipping*</a>
+
+              <a class="nav-link px-4" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><span class="mr-2 flaticon-destination"></span> Shop Multiple Locations</a>
+
+              <a class="nav-link px-4" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><span class="mr-2 flaticon-recipes"></span> Shop by Recipe</a>
+
+              <a class="nav-link px-4" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><span class="mr-2 flaticon-diet"></span> Meal Planning</a>
+
+                <a class="nav-link px-4" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="false"><span class="mr-2 flaticon-brain"></span> Smart Cart Suggestions</a>
+
+            </div>
+          </div>
+          <div class="col-md-8 ftco-animate p-4 p-md-5 d-flex align-items-center">
+
+            <div class="tab-content pl-md-5" id="v-pills-tabContent">
+
+              <div class="tab-pane fade show active py-5" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+                <span class="icon mb-3 d-block flaticon-price-1"></span>
+                <h2 class="mb-4">Lowest Prices Guaranteed</h2>
+                <p>Our special algorithms searches every second for the best priced groceries in your area.</p>
+                <p>Customers who use Dealish save an average 26% on their grocery bills compared to when they don't use Dealish!</p>
+                <p><a href="https://dealish.github.io/comingsoon.html" target="_blank" class="btn btn-primary px-4 py-3">Learn More</a></p>
+              </div>
+
+              <div class="tab-pane fade py-5" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+                <span class="icon mb-3 d-block flaticon-delivery-truck-1"></span>
+                <h2 class="mb-4">Free Shipping*</h2>
+                <p>Our partnership with Instacart makes delivery effortless for you and your family.</p>
+                <p>Most deliveries are completed within the hour!</p>
+                <p><a href="https://dealish.github.io/comingsoon.html" target="_blank" class="btn btn-primary px-4 py-3">Learn More</a></p>
+              </div>
+
+              <div class="tab-pane fade py-5" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+                <span class="icon mb-3 d-block flaticon-destination-1"></span>
+                <h2 class="mb-4">Shop Multiple Locations</h2>
+                <p>To get the best prices for you, we shop at multiple locations where the lowest price is.</p>
+                <p>Don't want delivery? We can make smart grocery lists for you that tell you where to shop, and which aisle each ingredient is in.</p>
+                <p><a href="https://dealish.github.io/comingsoon.html" target="_blank" class="btn btn-primary px-4 py-3">Learn More</a></p>
+              </div>
+
+              <div class="tab-pane fade py-5" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+                <span class="icon mb-3 d-block flaticon-recipes-1"></span>
+                <h2 class="mb-4">Shop by Recipe</h2>
+                <p>As easy as pie, you can add the ingredients from a whole recipe right into your cart with a click of a button.</p>
+                <p>Want to shop for a recipe online? Just paste the link into Dealish and we'll add it to your grocery cart!</p>
+                <p><a href="https://dealish.github.io/comingsoon.html" target="_blank" class="btn btn-primary px-4 py-3">Learn More</a></p>
+              </div>
+
+              <div class="tab-pane fade py-5" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+                <span class="icon mb-3 d-block flaticon-diet"></span>
+                <h2 class="mb-4">Meal Planning</h2>
+                <p>Meal planning can be hard  to do, but easy on the wallet. We help you plan your meals with recipes you plan to make in the future.</p>
+                <p>Schedule your delivery in advance and we'll make sure your meal plan arrives when you need it.</p>
+                <p><a href="https://dealish.github.io/comingsoon.html" target="_blank" class="btn btn-primary px-4 py-3">Learn More</a></p>
+              </div>
+
+              <div class="tab-pane fade py-5" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
+                <span class="icon mb-3 d-block flaticon-brain"></span>
+                <h2 class="mb-4">Smart Cart Suggestions</h2>
+                <p>To stretch your wallet further, our artificial intelligence helps find more use for the food you're purchasing.</p>
+                <p>When our AI sences when you have most of the ingredients for a particular recipe, it will suggest purchasing a few extra items so you can make it. Did someone say left overs?</p>
+                <p><a href="https://dealish.github.io/comingsoon.html" target="_blank" class="btn btn-primary px-4 py-3">Learn More</a></p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section-2 img" style="background-image: url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Stock%20Pics/landing%20page/instacart__pass_flip.jpg?raw=true);">
+    	<div class="container">
+    		<div class="row d-md-flex justify-content-end">
+    			<div class="col-md-6">
+    				<div class="row">
+    					<div class="col-md-12">
+    						<a href="https://dealish.github.io/comingsoon.html" target="_blank" class="services-wrap ftco-animate">
+    							<div class="icon d-flex justify-content-center align-items-center">
+    								<span class="ion-ios-arrow-back"></span>
+    								<span class="ion-ios-arrow-forward"></span>
+    							</div>
+    							<h2>Products You Love</h2>
+    							<p>Find 1,000's of products from the stores you already shop at.</p>
+    						</a>
+    						<a href="https://dealish.github.io/comingsoon.html" target="_blank" class="services-wrap ftco-animate">
+    							<div class="icon d-flex justify-content-center align-items-center">
+    								<span class="ion-ios-arrow-back"></span>
+    								<span class="ion-ios-arrow-forward"></span>
+    							</div>
+    							<h2>Same-day Delivery</h2>
+    							<p>We make deliveries anywhere in Ottawa, and will be expanding to more cities soon.</p>
+    						</a>
+    						<a href="https://dealish.github.io/comingsoon.html" target="_blank" class="services-wrap ftco-animate">
+    							<div class="icon d-flex justify-content-center align-items-center">
+    								<span class="ion-ios-arrow-back"></span>
+    								<span class="ion-ios-arrow-forward"></span>
+    							</div>
+    							<h2>Save Time & Money</h2>
+    							<p>Find exclusive deals on popular products — delivered to your front door.</p>
+    						</a>
+    						<a href="https://dealish.github.io/comingsoon.html" target="_blank" class="services-wrap ftco-animate">
+    							<div class="icon d-flex justify-content-center align-items-center">
+    								<span class="ion-ios-arrow-back"></span>
+    								<span class="ion-ios-arrow-forward"></span>
+    							</div>
+    							<h2>24/7 Help &amp; Support</h2>
+    							<p>We'll make sure you're taken care of, from beginning to end.</p>
+    						</a>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+
+  <section class="ftco-section ftco-project bg-light" id="pricing-section">
+    <!-- Pricing Section -->
+    <div class="container px-md-5">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <span class="subheading">Dealish Plans</span>
+          <h2 class="mb-4">Pricing</h2>
+
+      <p class="w3-large">Choose a pricing plan that satisfies your hunger.</p>
+      <div class="w3-row-padding" style="margin-top:64px">
+        <div class="w3-half w3-section">
+          <ul class="w3-ul w3-white w3-hover-shadow">
+            <li class="w3-light-grey w3-xlarge w3-padding-32">FREE</li>
+            <li class="w3-padding-16"><b>Lowest Prices</b>  Guaranteed</li>
+            <li class="w3-padding-16"><b>Paid</b> Shipping by Number of Locations</li>
+            <li class="w3-padding-16"><b>Shop</b> Recipes on Dealish</li>
+            <li class="w3-padding-16"><b>Endless</b> Support</li>
+            <li class="w3-padding-16">
+              <h2 class="w3-wide">$ 0</h2>
+              <span class="w3-opacity">per month</span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+            <a href="https://dealish.github.io/comingsoon.html" target="_blank" class="btn btn-light px-4 py-3">Sign-Up</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w3-half">
+          <ul class="w3-ul w3-white w3-hover-shadow">
+            <li class="w3-green w3-xxxlarge w3-padding-45">Value+</li>
+            <li class="w3-padding-16"><b>Lowest Prices</b>  Guaranteed</li>
+            <li class="w3-padding-16"><b>Free</b> Shipping</li>
+            <li class="w3-padding-16"><b>Unlimited</b> Locations</li>
+            <li class="w3-padding-16"><b>Import</b> Recipes into Cart</li>
+            <li class="w3-padding-16"><b>Integrated</b> Meal Planning</li>
+            <li class="w3-padding-16"><b>Smart</b> Cart Suggestions</li>
+            <li class="w3-padding-16"><b>Endless</b> Support</li>
+            <li class="w3-padding-16">
+              <h2 class="w3-wide">$ 9.99</h2>
+              <span class="w3-opacity">per month</span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+            <a href="https://dealish.github.io/comingsoon.html" target="_blank" class="btn btn-secondary px-4 py-3">Sign-Up</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://i.pinimg.com/564x/3c/dd/a4/3cdda4e13d0bd9ef3621105227fe4045.jpg" alt="Jane" style="width:100%">
-        <div class="w3-container">
-          <h3>Billy Bolton</h3>
-          <p class="w3-opacity">Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+  </section>
+
+  <section class="ftco-section testimony-section-light" id="testimonials-section">
+    <div class="container">
+      <div class="row justify-content-center pb-3">
+        <div class="col-md-7 text-center heading-section heading-section-green ftco-animate">
+          <h2 class="mb-4">Un-Hangry Customers</h2>
+        </div>
+      </div>
+      <div class="row ftco-animate justify-content-center">
+        <div class="col-md-12">
+          <div class="carousel-testimony owl-carousel ftco-owl">
+            <div class="item">
+              <div class="testimony-wrap text-center py-4 pb-5">
+                <div class="user-img" style="background-image: url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Stock%20Pics/Reviews/PRI_93321331-e1572286144618.jpg?raw=true)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text px-4 pb-5">
+                  <p class="mb-4">So convenient. Especially if you dont know where to find certain items you can just order them to your door.</p>
+                  <p class="name">Alyssia Lindsay</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap text-center py-4 pb-5">
+                <div class="user-img" style="background-image: url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Stock%20Pics/Reviews/Selfie_480-1600x0-c-default.jpg?raw=true)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text px-4 pb-5">
+                  <p class="mb-4">This was very helpful during a time when my husband and I were both sick.  Great service and very convenient! Saved at least $50 on my last order.</p>
+                  <p class="name">Carol Mueller</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap text-center py-4 pb-5">
+                <div class="user-img" style="background-image: url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Stock%20Pics/Reviews/iphone_7_plus_selfie_2_thumb800.jpg?raw=true)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text px-4 pb-5">
+                  <p class="mb-4">I used to order food boxes but Dealish is way easier and cheaper! I get more selection too. Lifetime customer now!</p>
+                  <p class="name">Sadie Parrish</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap text-center py-4 pb-5">
+                <div class="user-img" style="background-image: url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Stock%20Pics/Reviews/r0_0_5826_3884_w1200_h678_fmax.jpg?raw=true)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text px-4 pb-5">
+                  <p class="mb-4">We really like this service. The delivery fee is less than the subway fare it would cost me to travel to the grocery store. We use instacart often and would definitely recommend to others.</p>
+                  <p class="name">Judy Crone</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap text-center py-4 pb-5">
+                <div class="user-img" style="background-image: url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Stock%20Pics/Reviews/selfie.jpg?raw=true)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text px-4 pb-5">
+                  <p class="mb-4">So easy to use and convenient. Perfect for the working mom or mom who doesn't want to take kids to the store. Makes planning meals for the kids easy! #MomGoals</p>
+                  <p class="name">Brian Reynolds</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="http://thecrapbox.com/wp-content/uploads/2013/02/pizza.jpeg" alt="Mike" style="width:100%">
-        <div class="w3-container">
-          <h3>Quin Meidinger</h3>
-          <p class="w3-opacity">Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+  </section>
+
+  <section class="ftco-section bg-light" id="recipes-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <span class="subheading">Thyme to Cook</span>
+          <h2 class="mb-4">Recipes</h2>
+        </div>
+      </div>
+      <div class="row d-flex">
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <a href="single.html" class="block-20" style="background-image: url('https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Recipes/Whole_30_Chicken_Salad_007.jpg?raw=true');">
+            </a>
+            <div class="text mt-3 float-right d-block">
+              <h3 class="heading"><a href="single.html">Blackened Chicken and Avocado Salad</a></h3>
+              <p>Most of the flavors come from the chicken breast itself, coated in a spiced mixture of paprika, garlic powder, chili powder, and cumin. The savory juices coat the tomato, red onion, cucumber, and romaine thus doubling as a salad dressing. You can see our version, pictured right, which has so many enticing, bright elements.</p>
+              <div class="d-flex align-items-center mt-4 meta">
+                <p class="mb-0"><a href="https://www.brit.co/whole30-chicken-and-avocado-salad/" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                <p class="ml-auto mb-0">
+                  <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <a href="single.html" class="block-20" style="background-image: url('https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Recipes/greek-salad-pizza-finished-5.jpg?raw=true');">
+            </a>
+            <div class="text mt-3 float-right d-block">
+              <h3 class="heading"><a href="single.html">Greek Salad Pizza</a></h3>
+              <p>Not only does it taste amazing, it’s also pretty darn posh! Put the elastic waist pants away and make this creative pizza recipe for a movie night where you’ll actually be able to move at the end.</p>
+              <div class="d-flex align-items-center mt-4 meta">
+                <p class="mb-0"><a href="https://www.brit.co/greek-salad-pizza/" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                <p class="ml-auto mb-0">
+                  <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry">
+            <a href="single.html" class="block-20" style="background-image: url('https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Recipes/Keto_Chicken_Salad_003-1.jpg?raw=true');">
+            </a>
+            <div class="text mt-3 float-right d-block">
+              <h3 class="heading"><a href="single.html">Chicken Salad Keto Lettuce Wraps</a></h3>
+              <p>For those times when slow-cooked chicken isn’t an option and you want to do better than eating five string cheeses, (again).</p>
+              <div class="d-flex align-items-center mt-4 meta">
+                <p class="mb-0"><a href="https://www.brit.co/keto-chicken-salad-lettuce-wraps/" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                <p class="ml-auto mb-0">
+                  <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-		<div class="w3-col l3 m6 w3-margin-bottom">
-			<div class="w3-card">
-				<img src="https://steemitimages.com/DQmWKy4itECAE2nMFJi25bn4rjfkS9wnnoGoRu4QfNhBKiR/Stranger%20Things%20Parody_Christie%20Snelson_cropped.jpg" alt="Mike" style="width:100%">
-				<div class="w3-container">
-					<h3>Hened Saade</h3>
-					<p class="w3-opacity">Founder</p>
-					<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-					<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+  </section>
+
+
+  <section class="ftco-section ftco-project bg-white" id="social-section">
+    	<div class="container px-md-5">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<span class="subheading">Dealishous Dishes</span>
+            <h2 class="mb-4">Share Your Dishes with #DEALISH</h2>
+            <p>You're Lookin' Grape!</p>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-md-12 testimonial">
+            <div class="carousel-project owl-carousel">
+            	<div class="item">
+            		<div class="project">
+		    					<div class="img">
+				    				<img src="https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/social/IMG_4114_1.jpg?raw=true" class="img-fluid" alt="Colorlib Template">
+
+			    				</div>
+		    				</div>
+            	</div>
+            	<div class="item">
+            		<div class="project">
+		    					<div class="img">
+				    				<img src="https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/social/IMG_4115-1.jpg?raw=true" class="img-fluid" alt="Colorlib Template">
+
+			    				</div>
+		    				</div>
+            	</div>
+            	<div class="item">
+            		<div class="project">
+		    					<div class="img">
+				    				<img src="https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/social/IMG_4117-1.jpg?raw=true" class="img-fluid" alt="Colorlib Template">
+
+			    				</div>
+		    				</div>
+            	</div>
+            	<div class="item">
+            		<div class="project">
+		    					<div class="img">
+				    				<img src="https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/social/IMG_4116-1.jpg?raw=true" class="img-fluid" alt="Colorlib Template">
+
+			    				</div>
+		    				</div>
+            	</div>
+            	<div class="item">
+            		<div class="project">
+		    					<div class="img">
+				    				<img src="https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/social/IMG_4118-1.jpg?raw=true" class="img-fluid" alt="Colorlib Template">
+
+			    				</div>
+		    				</div>
+            	</div>
+              <div class="item">
+                <div class="project">
+                  <div class="img">
+                    <img src="https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/social/IMG_4119-1.jpg?raw=true" class="img-fluid" alt="Colorlib Template">
+
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="project">
+                  <div class="img">
+                    <img src="https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/social/IMG_4120-1.jpg?raw=true" class="img-fluid" alt="Colorlib Template">
+
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="project">
+                  <div class="img">
+                    <img src="https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/social/IMG_4121-1.jpg?raw=true" class="img-fluid" alt="Colorlib Template">
+
+                  </div>
+                </div>
+              </div>
+            	<div class="item">
+            		<div class="project">
+		    					<div class="img">
+				    				<img src="https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/social/IMG_4122-1.jpg?raw=true" class="img-fluid" alt="Colorlib Template">
+
+			    				</div>
+		    				</div>
+            	</div>
+            </div>
+          </div>
+    		</div>
+    	</div>
+    </section>
+
+
+
+    <section class="ftco-section" id="team-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-6 heading-section text-center ftco-animate">
+          	<span class="subheading">About Us</span>
+            <h2 class="mb-3">Who is in the Kitchen</h2>
+            <p>Cooking Up the Deals</p>
+          </div>
+        </div>
+        <div class="row">
+					<div class="col-md-6 col-lg-4 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Team%20Photos/joey_sq_bw.jpg?raw=true;"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3 text-center">
+								<div>
+									<h3 class="mb-2">Joey Abonasara</h3>
+									<span class="position mb-4">Marketing, Founder</span>
+									<div class="faded">
+										<ul class="ftco-social text-center">
+			                <li class="ftco-animate"><a href="https://www.linkedin.com/in/joseph-saliba-abonasara-a83356197" target=_"blank"><span class="icon-linkedin"></span></a></li>
+			                <li class="ftco-animate"><a href="https://instagram.com/josephabonasara" target="_blank"><span class="icon-instagram"></span></a></li>
+                      <li class="ftco-animate"><a href="https://github.com/josephabonasara" target=_"blank"><span class="icon-github"></span></a></li>
+			              </ul>
+		              </div>
+		            </div>
+							</div>
+						</div>
+					</div>
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="staff">
+              <div class="img-wrap d-flex align-items-stretch">
+                <div class="img align-self-stretch" style="background-image: url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Team%20Photos/henede_sq_bw.jpg?raw=true);"></div>
+              </div>
+              <div class="text d-flex align-items-center pt-3 text-center">
+                <div>
+                  <h3 class="mb-2">Hened Saade</h3>
+                  <span class="position mb-4">People and Culture, Founder</span>
+                  <div class="faded">
+                    <ul class="ftco-social text-center">
+                      <li class="ftco-animate"><a href="https://instagram.com/henedsaade" target="_blank"><span class="icon-instagram"></span></a></li>
+                      <li class="ftco-animate"><a href="https://github.com/henedsaade" target=_"blank"><span class="icon-github"></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+					<div class="col-md-6 col-lg-4 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Team%20Photos/billy_sq.jpg?raw=true);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3 text-center">
+								<div>
+									<h3 class="mb-2">Billy Bolton</h3>
+									<span class="position mb-4">Business Relations, Founder</span>
+									<div class="faded">
+										<ul class="ftco-social text-center">
+			                <li class="ftco-animate"><a href="https://linkedin.com/itsbillybolton" target=_"blank"><span class="icon-linkedin"></span></a></li>
+			                <li class="ftco-animate"><a href="https://instagram.com/itsbillybolton" target=_"blank"><span class="icon-instagram"></span></a></li>
+  			              <li class="ftco-animate"><a href="https://github.com/alcauda" target=_"blank"><span class="icon-github"></span></a></li>
+			              </ul>
+		              </div>
+		            </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-6 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Team%20Photos/quin_sq_bw.jpg?raw=true);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3 text-center">
+								<div>
+									<h3 class="mb-2">Quin Meidinger</h3>
+									<span class="position mb-4">UX Design, Founder</span>
+									<div class="faded">
+										<ul class="ftco-social text-center">
+			                <li class="ftco-animate"><a href="https://instagram.com/quin_meidinger" target="_blank"><span class="icon-instagram"></span></a></li>
+                      <li class="ftco-animate"><a href="https://github.com/quinm2" target=_"blank"><span class="icon-github"></span></a></li>
+			              </ul>
+		              </div>
+		            </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-6 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(https://github.com/Dealish/Dealish.github.io/blob/master/Photo%20Assets/Team%20Photos/mustafa_sq_bw.jpg?raw=true);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3 text-center">
+								<div>
+									<h3 class="mb-2">Mustafa Sarikaya</h3>
+									<span class="position mb-4">Product Development, Founder</span>
+									<div class="faded">
+										<ul class="ftco-social text-center">
+			                <li class="ftco-animate"><a href="https://www.linkedin.com/in/mustafa-tayyar-s-069054159/" target="_blank"><span class="icon-linkedin"></span></a></li>
+			                <li class="ftco-animate"><a href="https://instagram.com/mustfatayyar" target="_blank"><span class="icon-instagram"></span></a></li>
+                      <li class="ftco-animate"><a href="https://github.com/MustafaSarikaya" target=_"blank"><span class="icon-github"></span></a></li>
+			              </ul>
+		              </div>
+		            </div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1b6eea0a-e631-40b8-bc00-367656dc5026/dcw9wo3-03947636-c3f5-46d1-a3b9-7c783451cf0b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFiNmVlYTBhLWU2MzEtNDBiOC1iYzAwLTM2NzY1NmRjNTAyNlwvZGN3OXdvMy0wMzk0NzYzNi1jM2Y1LTQ2ZDEtYTNiOS03Yzc4MzQ1MWNmMGIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QUvdsS2kPjqfdqiD-0Re5N8rTssDjiYdcUn4g9Tto64" alt="Dan" style="width:100%">
-        <div class="w3-container">
-          <h3>Mustafa Sarikaya</h3>
-          <p class="w3-opacity">Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+    	</div>
+    </section>
+
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading">Let's Get in Touch</span>
+            <h2 class="mb-4">Contact Us</h2>
+            <p>or invite us over for dinner...</p>
+          </div>
+        </div>
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>304 Dealishous Lane, Ottawa, Ontario, Canada</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://1234567920">+1 613 282 1652</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@Dealish.com">info@Dealish.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Website</h3>
+	            <p><a href="https://dealish.github.io/comingsoon.html" target="_blank">Subscribe for Notifications</a></p>
+	          </div>
+          </div>
+        </div>
+        <div class="row no-gutters block-9">
+          <div class="col-md-12 order-md-last d-flex">
+            <form action="#" class="bg-light p-5 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+
+          </div>
+
+
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<!-- Promo Section "Statistics" -->
-<div class="w3-container w3-row w3-center w3-light-grey w3-padding-64">
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">27%</span>
-    <br>Cheaper Grocery Bills on Average
-  </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">55+</span>
-    <br>Projects Done
-  </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">89+</span>
-    <br>Happy Clients
-  </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">150+</span>
-    <br>Meetings
-  </div>
-</div>
+    </section>
 
 
-<!-- Pricing Section -->
-<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
-  <h3>PRICING</h3>
-  <p class="w3-large">Choose a pricing plan that fits your needs.</p>
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-half w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">FREE</li>
-        <li class="w3-padding-16"><b>Unlimited</b> Price Comparison</li>
-        <li class="w3-padding-16"><b>2</b> Grocery Locations</li>
-        <li class="w3-padding-16"><b>Unlimited</b> Smart Grocery Lists</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 0</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-half">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-dealish-green w3-xxxlarge w3-padding-45">Value+</li>
-        <li class="w3-padding-16"><b>25GB</b> Storage</li>
-        <li class="w3-padding-16"><b>25</b> Emails</li>
-        <li class="w3-padding-16"><b>25</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 25</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Dealish</h2>
+              <p>On a mission to find fresh ingredients for the lowest price in your area.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
 
-<!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
-  <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ottawa, CA</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +1 area_code 332-5474</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: dealish@gmail.com</p>
-    <br>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-    <!-- Image of location/map -->
-    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
-  </div>
-</div>
+          </div>
+          <div class="col-md">
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">304 Dealishous Lane, Ottawa, Ontario, Canada</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+1 613 282 1652</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@Dealish.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  <!--Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> --!>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
 
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-  } else {
-    mySidebar.style.display = 'block';
-  }
-}
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
-</script>
 
-</body>
+  <script src="home2/js/jquery.min.js"></script>
+  <script src="home2/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="home2/js/popper.min.js"></script>
+  <script src="home2/js/bootstrap.min.js"></script>
+  <script src="home2/js/jquery.easing.1.3.js"></script>
+  <script src="home2/js/jquery.waypoints.min.js"></script>
+  <script src="home2/js/jquery.stellar.min.js"></script>
+  <script src="home2/js/owl.carousel.min.js"></script>
+  <script src="home2/js/jquery.magnific-popup.min.js"></script>
+  <script src="home2/js/aos.js"></script>
+  <script src="home2/js/jquery.animateNumber.min.js"></script>
+  <script src="home2/js/scrollax.min.js"></script>
+  <script src="home2/js/google-map.js"></script>
+
+  <script src="home2/js/main.js"></script>
+
+  </body>
 </html>
