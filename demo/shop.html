@@ -27,57 +27,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-    <script>
-    var speech = {
-     start : function () {
-     // speech.start() : start speech recognition
 
-       const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-       speech.recognition = new SpeechRecognition();
-       speech.recognition.continuous = true;
-       speech.recognition.interimResults = false;
-       speech.recognition.lang = "en-US";
-       speech.recognition.onerror = function (evt) {
-         console.log(evt);
-       };
-       speech.recognition.onresult = function (evt) {
-         document.getElementById('search-input').value= evt.results[0][0].transcript;
-         speech.stop();
-       };
-       speech.recognition.start();
-       document.getElementById('search-on').disabled = true;
-       document.getElementById('search-off').disabled = false;
-     },
-
-     stop : function () {
-     // speech.stop() : end speech recognition
-
-       if (speech.recognition != null) {
-         speech.recognition.stop();
-         speech.recognition = null;
-         document.getElementById('search-on').disabled = false;
-         document.getElementById('search-off').disabled = true;
-       }
-     }
-   };
-
-   window.addEventListener("load", function () {
-     // [1] CHECK IF BROWSER SUPPORTS SPEECH RECOGNITION
-     if (window.hasOwnProperty('SpeechRecognition') || window.hasOwnProperty('webkitSpeechRecognition')) {
-       document.getElementById("search-speech").style.display = "block";
-
-       // [2] ASK FOR USER PERMISSION TO ACCESS MICROPHONE
-       // WILL ALSO FAIL IF NO MICROPHONE IS ATTACHED TO COMPUTER
-       navigator.mediaDevices.getUserMedia({ audio: true })
-       .then(function(stream) {
-         document.getElementById("search-on").disabled = false;
-       })
-       .catch(function(err) {
-         document.getElementById("search-speech").innerHTML = "Please enable access and attach a microphone";
-       });
-     }
-   });
-   </script>
   </head>
   <body class="goto-here">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -122,12 +72,12 @@
         </div>
       </div>
     </div>
-    <form id="search-form" onsubmit="return false">
-         <!-- SEARCH FIELD -->
+  <!--  <form id="search-form" onsubmit="return false">
+
          <input type="text" id="search-input"/>
          <input type="submit" id="search-go" value="Search"/>
 
-         <!-- SPEECH RECOGNITION -->
+
          <div id="search-speech" style="display:none">
            <p>
              Click on "Speech Recognition On", speak into the mic, and wait for a second.
@@ -136,7 +86,12 @@
            <input type="button" id="search-on" value="Speech Recognition On"/>
            <input type="button" disabled id="search-off" value="Cancel"/>
          </div>
-       </form>
+       </form> -->
+       <form method="get" action="http://www.google.com/search">
+         <input type="text" name="q" size="40" x-webkit-speech />
+         <input type="submit" value="Google Search" />
+      </form>
+   
     <section class="ftco-section">
     	<div class="container">
     		<div class="row justify-content-center">
