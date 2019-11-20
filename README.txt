@@ -71,7 +71,7 @@ https://github.com/Dealish
 https://dealish.github.io
 
 GitHub Accounts for Each Team Member
-Billy Bolton: alcauda
+Billy Bolton: BillyBolton
 Hened Saade: henedsaade
 Joseph Abonasara: josephabonasara
 Mustafa Tayyar: MustafaSarikaya 
