@@ -59,11 +59,11 @@ This company uses python to create web scraping & automation tools. This will be
 
 
 
- Mustafa Tayyar SARIKAYA #300078744
- Billy BOLTON #6411144
- Hened SAADE #300111592
- Quin MEIDINGER #300112591
- Joseph ABONASARA #300115223
+ Mustafa Tayyar SARIKAYA
+ Billy BOLTON
+ Hened SAADE
+ Quin MEIDINGER
+ Joseph ABONASARA
 
 
 Github Organization/Repository Links
